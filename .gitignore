@@ -18,6 +18,7 @@ test/localforage.webpack.js
 *.rbc
 .bundle
 .config
+temp_auto_push.bat
 coverage
 InstalledFiles
 lib/bundler/man
@@ -38,3 +39,5 @@ doc/
 
 # typescript cache
 .tscache
+.gitignore
+branch_structure.json
