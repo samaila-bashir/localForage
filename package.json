@@ -9,14 +9,14 @@
     "storage",
     "websql"
   ],
-  "version": "1.5.6",
+  "version": "1.5.7",
   "homepage": "https://github.com/localForage/localForage",
   "repository": {
     "type": "git",
     "url": "git://github.com/localForage/localForage.git"
   },
   "scripts": {
-    "build": "node -e \"require('grunt').cli()\" null build",
+    "build": "node api.js && node -e \"require('grunt').cli()\" null build",
     "publish-docs": "node -e \"require('grunt').cli()\" null copy build-rules-html publish-rules",
     "serve": "node -e \"require('grunt').cli()\" null serve",
     "test": "node -e \"require('grunt').cli()\" null test"
