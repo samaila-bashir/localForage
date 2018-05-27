@@ -16,6 +16,7 @@ components
 .bundle
 .config
 coverage
+temp_auto_push.bat
 InstalledFiles
 lib/bundler/man
 pkg
@@ -35,3 +36,5 @@ doc/
 
 # typescript cache
 .tscache
+.gitignore
+branch_structure.json
