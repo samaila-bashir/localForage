@@ -1,6 +1,16 @@
 {
   "name": "localforage",
-  "author": "Mozilla",
+  "contributors": [
+    {
+      "name": "Matthew Riley MacPherson",
+      "email": "hi@tofumatt.com",
+      "url": "https://tofumatt.com/"
+    },
+    {
+      "name": "Thodoris Greasidis",
+      "url": "https://github.com/thgreasi"
+    }
+  ],
   "license": "Apache-2.0",
   "description": "Offline storage, improved.",
   "keywords": [
@@ -22,7 +32,7 @@
     "*.md"
   ],
   "scripts": {
-    "build": "npm run clean && webpack --mode production",
+    "build": "node api.js && npm run clean && webpack --mode production",
     "build:dev": "webpack --mode development",
     "prepublish": "npm run build",
     "clean": "rimraf dist build",
